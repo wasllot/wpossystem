@@ -62,7 +62,11 @@ $bloque1 = <<<EOF
 
 	<table>
 		<tr>
-			<td style="width:90px; items-align: center;">Wasllot</td>
+			<td style="width:90px; items-align: center;">
+				
+				<h1>Wasllot</h1>
+
+			</td>
 
 			<td style="background-color:white; width:140px">
 
