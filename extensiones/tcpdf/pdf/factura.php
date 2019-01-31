@@ -62,7 +62,7 @@ $bloque1 = <<<EOF
 
 	<table>
 		<tr>
-			<td style="width:90px; items-align: center;"><img src="images/logo.png" width="90"></td>
+			<td style="width:90px; items-align: center;"><img src="https://firebasestorage.googleapis.com/v0/b/recipeapp-a620e.appspot.com/o/mean-socialnetwork%2Flogo.png?alt=media&token=37c4fd3c-317f-4f70-a87e-f2bf7407d033" width="90"></td>
 
 			<td style="background-color:white; width:140px">
 
