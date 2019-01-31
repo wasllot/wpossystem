@@ -3407,14 +3407,14 @@ table.text-center th {
   height:100vh;
   background: url(../../img/plantilla/back.jpeg);
   background-size:cover;
-  overflow:hidden;
+  background-position: center; 
   z-index:-1;
 
 }
 
 .login-box,
 .register-box {
-  width: 360px;
+  max-width: 360px;
   margin: 7% auto;
 }
 @media (max-width: 768px) {
