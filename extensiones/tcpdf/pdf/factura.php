@@ -196,10 +196,10 @@ $bloque4 = <<<EOF
 		<td style="border: 1px solid #666; color:#333; background-color:white; width:80px; text-align:center">
 		$item[cantidad]
 		</td>
-		<td style="border: 1px solid #666; color:#333; background-color:white; width:100px; text-align:center">Bs. 
+		<td style="border: 1px solid #666; color:#333; background-color:white; width:100px; text-align:center">USD. 
 		$precioUnidad
 		</td>
-		<td style="border: 1px solid #666; color:#333; background-color:white; width:100px; text-align:center">Bs. 
+		<td style="border: 1px solid #666; color:#333; background-color:white; width:100px; text-align:center">USD. 
 		$precioTotal
 		</td>
 
@@ -241,7 +241,7 @@ $bloque5 = <<<EOF
 			Neto:
 		</td>
 		<td style="border: 1px solid #666; color:#333; background-color:white; width:100px; text-align:center">
-			Bs. $neto
+			USD. $neto
 		</td>
 
 		</tr>
@@ -254,7 +254,7 @@ $bloque5 = <<<EOF
 			Impuesto:
 		</td>
 		<td style="border: 1px solid #666; color:#333; background-color:white; width:100px; text-align:center">
-			Bs. $impuesto
+			USD. $impuesto
 		</td>
 
 		</tr>
@@ -267,7 +267,7 @@ $bloque5 = <<<EOF
 			Total:
 		</td>
 		<td style="border: 1px solid #666; color:#333; background-color:white; width:100px; text-align:center">
-			Bs. $total
+			USD. $total
 		</td>
 
 		</tr>
