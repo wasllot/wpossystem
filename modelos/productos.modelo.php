@@ -67,6 +67,32 @@ class ModeloProductos{
 	}
 
 	/*=============================================
+	Actualizar precios
+	=============================================*/
+
+	static public function mdlActualizarPreciosProducto($tabla, $datos){
+
+		$stmt = Conexion::conectar()->prepare("UPDATE $tabla SET precio_venta = precio_venta + (precio_venta*:porcentaje)/100 WHERE id_categoria = :id_categoria");
+
+		$stmt->bindParam(":id_categoria", $datos["id_categoria"], PDO::PARAM_INT);
+		$stmt->bindParam(":porcentaje", $datos["porcentaje"], PDO::PARAM_STR);
+
+		if($stmt->execute()){
+
+			return "ok";
+
+		}else{
+
+			return "error";
+		
+		}
+
+		$stmt->close();
+		$stmt = null;
+
+	}		
+
+	/*=============================================
 	EDITAR PRODUCTO
 	=============================================*/
 	static public function mdlEditarProducto($tabla, $datos){

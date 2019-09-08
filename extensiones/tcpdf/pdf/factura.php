@@ -85,7 +85,7 @@ $bloque1 = <<<EOF
 					<br>
 					Teléfono: 416 781 32 10
 					<br>
-					ventas@wasllot.com
+					wasllotdev@gmail.com
 				</div>
 				
 			</td>
@@ -196,10 +196,10 @@ $bloque4 = <<<EOF
 		<td style="border: 1px solid #666; color:#333; background-color:white; width:80px; text-align:center">
 		$item[cantidad]
 		</td>
-		<td style="border: 1px solid #666; color:#333; background-color:white; width:100px; text-align:center">$ 
+		<td style="border: 1px solid #666; color:#333; background-color:white; width:100px; text-align:center">Bs. 
 		$precioUnidad
 		</td>
-		<td style="border: 1px solid #666; color:#333; background-color:white; width:100px; text-align:center">$ 
+		<td style="border: 1px solid #666; color:#333; background-color:white; width:100px; text-align:center">Bs. 
 		$precioTotal
 		</td>
 
@@ -241,7 +241,7 @@ $bloque5 = <<<EOF
 			Neto:
 		</td>
 		<td style="border: 1px solid #666; color:#333; background-color:white; width:100px; text-align:center">
-			$ $neto
+			Bs. $neto
 		</td>
 
 		</tr>
@@ -254,7 +254,7 @@ $bloque5 = <<<EOF
 			Impuesto:
 		</td>
 		<td style="border: 1px solid #666; color:#333; background-color:white; width:100px; text-align:center">
-			$ $impuesto
+			Bs. $impuesto
 		</td>
 
 		</tr>
@@ -267,7 +267,7 @@ $bloque5 = <<<EOF
 			Total:
 		</td>
 		<td style="border: 1px solid #666; color:#333; background-color:white; width:100px; text-align:center">
-			$ $total
+			Bs. $total
 		</td>
 
 		</tr>

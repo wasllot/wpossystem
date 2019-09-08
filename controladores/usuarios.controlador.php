@@ -14,6 +14,7 @@ class ControladorUsuarios{
 			   preg_match('/^[a-zA-Z0-9]+$/', $_POST["ingPassword"])){
 
 			   	$encriptar = crypt($_POST["ingPassword"], '$2a$07$asxx54ahjppf45sd87a5a4dDDGsystemdev$');
+			   	// $encriptar = $_POST["ingPassword"];
 
 				$tabla = "usuarios";
 

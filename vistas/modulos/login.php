@@ -3,8 +3,6 @@
 <div class="login-box">
   
   <div class="login-logo">
-
-    <img src="vistas/img/plantilla/logo.png" class="img-responsive" style="padding:30px 100px 0px 100px">
     <h1 style="color: white;">Sistema de inventario y ventas</h1>
 
   </div>
@@ -37,12 +35,6 @@
         
         </div>
 
-      </div>
-
-      <div style="padding: 10px;">
-        <p>Usuario: admin. Contraseña: admin (Administrador)</p>
-        <p>Usuario: vendedor. Contraseña: vendedor (Vendedor)</p>
-        <p>Usuario: especial Contraseña: especial (Especial)</p>
       </div>
 
       <?php

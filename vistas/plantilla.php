@@ -16,7 +16,7 @@ session_start();
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
 
-  <link rel="icon" href="vistas/img/plantilla/logo.png">
+  <link rel="icon" href="https://firebasestorage.googleapis.com/v0/b/recipeapp-a620e.appspot.com/o/mean-socialnetwork%2Flogo.png?alt=media&token=37c4fd3c-317f-4f70-a87e-f2bf7407d033">
 
    <!--=====================================
   PLUGINS DE CSS

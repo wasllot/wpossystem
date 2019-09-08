@@ -154,6 +154,69 @@ class ControladorProductos{
 	}
 
 	/*=============================================
+	Actualizar precios producto
+	=============================================*/	
+
+	static public function ctrActualizarPreciosProducto(){
+
+		if(isset($_POST["porcentajeNuevo"])){
+
+			if(preg_match('/^[0-9]+$/', $_POST["porcentajeNuevo"])){
+
+			   	$tabla = "productos"; 
+
+			   	$datos = array("id_categoria" => $_POST["mostrarCategoria"],
+							   "porcentaje" => $_POST["porcentajeNuevo"]);
+
+			   	$respuesta = ModeloProductos::mdlActualizarPreciosProducto($tabla, $datos);
+
+			   	if($respuesta == "ok"){
+
+						echo'<script>
+
+							swal({
+								  type: "success",
+								  title: "Los precios se actualizaron correctamente",
+								  showConfirmButton: true,
+								  confirmButtonText: "Cerrar"
+								  }).then((result) => {
+											if (result.value) {
+
+											window.location = "productos";
+
+											}
+										})
+
+							</script>';
+
+					}
+
+
+				}else{
+
+					echo'<script>
+
+						swal({
+							  type: "error",
+							  title: "¡Los precios no han podido actualizarse!",
+							  showConfirmButton: true,
+							  confirmButtonText: "Cerrar"
+							  }).then((result) => {
+								if (result.value) {
+
+								window.location = "productos";
+
+								}
+							})
+
+				  	</script>';
+				}
+
+			}
+
+		}
+
+	/*=============================================
 	EDITAR PRODUCTO
 	=============================================*/
 

@@ -99,6 +99,68 @@
 
   </section>
 
+  <section class="content">
+
+    <h2>Actualizar precios</h2>
+
+<div class="box">
+
+<div class="box-body">
+  <form role="form" method="post" enctype="multipart/form-data">
+  
+  
+          <div class="form-group">
+            
+            <div class="input-group">
+            
+              <span class="input-group-addon"><i class="fa fa-th"></i></span> 
+  
+              <select class="form-control input-lg" id="mostrarCategoria" name="mostrarCategoria" required>
+                
+                <option value="">Selecionar categoría</option>
+  
+                <?php
+  
+                $item = null;
+                $valor = null;
+  
+                $categorias = ControladorCategorias::ctrMostrarCategorias($item, $valor);
+  
+                foreach ($categorias as $key => $value) {
+                  
+                  echo '<option value="'.$value["id"].'">'.$value["categoria"].'</option>';
+                }
+  
+                ?>
+          
+              </select>
+  
+            </div>
+  
+          </div>
+  
+              <!-- ENTRADA PARA PORCENTAJE -->
+  
+              <div class="col-xs-6 " style="padding:0; margin-right: 1rem;">
+                
+                <div class="input-group">
+                  
+                  <input type="number" class="form-control input-lg nuevoPorcentaje" min="0" value="30" id="porcentajeNuevo" name="porcentajeNuevo" required>
+  
+                  <span class="input-group-addon"><i class="fa fa-percent"></i></span>
+  
+                </div>
+  
+              </div>
+  
+              <button type="submit" class="btn btn-primary">Actualizar precios</button>
+  
+  </form>
+</div>
+
+</div>
+  </section>
+
 </div>
 
 

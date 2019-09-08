@@ -8,7 +8,7 @@
 		<!-- logo mini -->
 		<span class="logo-mini">
 			
-			<img src="vistas/img/plantilla/logo.png" class="img-responsive" style="padding:10px">
+			<img src="vistas/img/plantilla/wasllot.png" class="img-responsive" style="padding:10px">
 
 		</span>
 
@@ -16,7 +16,7 @@
 
 		<span class="logo-lg">
 			
-			<img src="vistas/img/plantilla/logo.png" width="30" class="img-responsive" style="padding:10px 0px; align-items: center;">
+			<img src="vistas/img/plantilla/wasllot.png" width="30" class="img-responsive" style="padding:10px 0px; align-items: center;">
 
 
 		</span>
@@ -87,7 +87,118 @@
 
 		</div>
 
+
+
 	</nav>
+
+	<!--=====================================
+MODAL ACTUALIZAR PRECIOS PRODUCTO
+======================================-->
+
+<!-- <div id="modalActualizarPreciosProducto" class="modal fade" role="dialog">
+  
+  <div class="modal-dialog">
+
+    <div class="modal-content">
+
+      <form role="form" method="post" enctype="multipart/form-data"> -->
+
+        <!--=====================================
+        CABEZA DEL MODAL
+        ======================================-->
+<!-- 
+        <div class="modal-header" style="background:#3c8dbc; color:white">
+
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+
+          <h4 class="modal-title">Actualizar precios</h4>
+
+        </div> -->
+
+        <!--=====================================
+        CUERPO DEL MODAL
+        ======================================-->
+<!-- 
+        <div class="modal-body">
+
+          <div class="box-body">
+ -->
+
+            <!-- ENTRADA PARA SELECCIONAR CATEGORÍA -->
+ 
+<!--             <div class="form-group">
+              
+              <div class="input-group">
+              
+                <span class="input-group-addon"><i class="fa fa-th"></i></span> 
+
+                <select class="form-control input-lg" id="mostrarCategoria" name="mostrarCategoria" required>
+                  
+                  <option value="">Selecionar categoría</option>
+
+                  <?php
+
+                  $item = null;
+                  $valor = null;
+
+                  $categorias = ControladorCategorias::ctrMostrarCategorias($item, $valor);
+
+                  foreach ($categorias as $key => $value) {
+                    
+                    echo '<option value="'.$value["id"].'">'.$value["categoria"].'</option>';
+                  }
+
+                  ?>
+  
+                </select>
+
+              </div>
+
+            </div> -->
+
+                  <!-- ENTRADA PARA PORCENTAJE -->
+<!-- 
+                  <div class="col-xs-6" style="padding:0">
+                    
+                    <div class="input-group">
+                      
+                      <input type="number" class="form-control input-lg nuevoPorcentaje" min="0" value="30" id="porcentajeNuevo" name="porcentajeNuevo" required>
+
+                      <span class="input-group-addon"><i class="fa fa-percent"></i></span>
+
+                    </div>
+
+                  </div>
+
+
+            </div> 
+ -->
+        <!--=====================================
+        PIE DEL MODAL
+        ======================================-->
+
+<!--         <div class="modal-footer">
+
+          <button type="button" class="btn btn-default pull-left" data-dismiss="modal">Salir</button>
+
+          <button type="submit" class="btn btn-primary">Actualizar precios</button>
+
+        </div>
+
+      </form>
+
+        <?php
+
+          $actualizarPreciosProducto = new ControladorProductos();
+          $actualizarPreciosProducto -> ctrActualizarPreciosProducto();
+
+        ?>  
+
+    </div>
+
+  </div>
+ 
+</div>-->
 
  </header>
 

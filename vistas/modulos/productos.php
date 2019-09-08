@@ -28,6 +28,12 @@
           
           Agregar producto
 
+        </button>        
+
+        <button class="btn btn-primary" data-toggle="modal" data-target="#modalActualizarPreciosProducto">
+          
+          Actualizar precios
+
         </button>
 
       </div>
@@ -284,6 +290,7 @@ MODAL AGREGAR PRODUCTO
   </div>
 
 </div>
+
 
 <!--=====================================
 MODAL EDITAR PRODUCTO
