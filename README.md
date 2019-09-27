@@ -4,11 +4,13 @@ An example pos system project developed with Bootstrap, AdminLTE, AJAX, Jquery, 
 Login:
 
 Administrador: 
-  usuario    Contraseña
-  admin123 - admin123
+  usuario: admin123
+  Contraseña: admin123
   
 Vendedor
-  vendedor123 - vendedor123
+  Usuario: vendedor123
+  Contraseña: vendedor123
   
 Especial
-  especial123 - especial123
+  Usuario: especial123
+  Contraseña: especial123
